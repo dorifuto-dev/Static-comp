@@ -1,0 +1,26 @@
+* {
+  border: 1px dotted lime;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo {
+  font-family: 'Aleo', serif;
+}
+
+.bao {
+  height: 30px;
+  background-color: blue;
+}
+
+.arrow, .user {
+  color: blue;
+  height: 12px;
+}
