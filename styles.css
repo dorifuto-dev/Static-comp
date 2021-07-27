@@ -241,3 +241,93 @@ main {
   font-size: 12px;
   color: #27b5fe;
 }
+
+@media screen and (max-width: 640px) {
+
+  .card-grid {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .card-grid {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (max-width: 470px) {
+
+
+  .body {
+    width: 100vw;
+    overflow: auto;
+  }
+  .top-menu {
+    width: 100vw;
+  }
+
+  .corner-menu {
+    justify-content: flex-end;
+  }
+
+  .user {
+    height: 2rem;
+  }
+
+  .desktop, .upper-corner, .time-stamp {
+    display: none!important;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .menu-title {
+    font-size: 2rem;
+  }
+
+  .card-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    height: 70vh;
+    width: 90vw;
+  }
+
+  .dish-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .dish-name {
+    font-size: 1.5rem;
+  }
+
+  .link {
+    border-radius: 3px;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .link-text {
+    font-size: 1rem;
+  }
+
+  .cuisine, .attachment-title {
+    font-size: 1.2rem;
+  }
+
+  .location, .attachment-number {
+    font-size: 1.5rem;
+  }
+}
