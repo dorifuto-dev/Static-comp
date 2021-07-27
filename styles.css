@@ -109,15 +109,15 @@ main {
 
 .menu-title {
   font-size: 15px;
-  margin-left: 10px;
+  margin-left: 14px;
   margin-top: 7px;
 }
 
 .card-grid {
-  margin: 10px 10px 10px;
+  margin: 10px 15px 10px;
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  grid-gap: 8px;
 }
 
 .card {
@@ -275,7 +275,7 @@ main {
     height: 2rem;
   }
 
-  .desktop, .upper-corner, .time-stamp {
+  .desktop, .upper-corner, .time-stamp, .view, .view-number {
     display: none!important;
   }
 
@@ -287,7 +287,7 @@ main {
   }
 
   .menu-title {
-    font-size: 2rem;
+    font-size: 5vw;
   }
 
   .card-grid {
@@ -297,8 +297,12 @@ main {
   }
 
   .card {
-    height: 70vh;
+    height: 320px;
     width: 90vw;
+  }
+
+  .preview-icon {
+    height: 10vh;
   }
 
   .dish-card {
@@ -309,7 +313,7 @@ main {
   }
 
   .dish-name {
-    font-size: 1.5rem;
+    font-size: 5vw;
   }
 
   .link {
@@ -320,14 +324,14 @@ main {
   }
 
   .link-text {
-    font-size: 1rem;
+    font-size: 3vw;
   }
 
   .cuisine, .attachment-title {
-    font-size: 1.2rem;
+    font-size: 3vw;
   }
 
   .location, .attachment-number {
-    font-size: 1.5rem;
+    font-size: 4.5vw;
   }
 }
