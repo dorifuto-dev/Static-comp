@@ -58,6 +58,7 @@
 
 main {
   background-color: #efefef;
+  overflow: auto;
 }
 
 .corner-menu {
@@ -90,4 +91,25 @@ main {
 .bao {
   height: 20px;
   margin: 0px 10px 5px 5px;
+}
+
+.card-grid {
+  margin: 10px 10px 10px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 10px;
+}
+
+.card {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+}
+
+.preview-image {
+  width: 100%;
+}
+
+.view, .view-number, .dish-name, .time-stamp, .link-text, .cuisine, .location, .attachment-title, .attachment-number {
+  font-size: 10px;
 }
