@@ -25,7 +25,7 @@
 .nav-align {
   display: flex;
   height: 100%;
-  margin-left: 10px;
+  margin-left: 14px;
 }
 
 .nav-text {
@@ -269,6 +269,14 @@ main {
 
   .desktop, .upper-corner, .time-stamp, .view, .view-number {
     display: none!important;
+  }
+
+  .user {
+    margin-left: 10px;
+  }
+
+  .lower-corner {
+    margin-right: 10px;
   }
 
   main {
