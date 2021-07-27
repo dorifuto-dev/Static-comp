@@ -10,8 +10,7 @@ This application uses HTML and CSS.
 
 ## Deployed Link
 
-You can view the project [here](https://ericli1996.github.io/Static-comp/). *You may need to zoom into around 200%, GitHub pages was having issues with the scale. Will check and advise.
-
+You can view the project [here](https://ericli1996.github.io/Static-comp/). <s>*You may need to zoom into around 200%, GitHub pages was having issues with the scale. Will check and advise.</s> Seems to be working fine now. Change the dimensions to see how the page responds to different layouts including mobile, desktop, and iPad.
 
 _Hungry yet?_
 
